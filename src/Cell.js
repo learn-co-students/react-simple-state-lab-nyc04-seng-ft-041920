@@ -1,12 +1,12 @@
 import React from "react";
 
 export default class Cell extends React.Component {
-  constructor(props) {
-    super();
-    this.state = {
+
+
+    state = {
       color: props.value,
     };
-  }
+
 
   changeColor = () => {
     this.setState({
@@ -25,4 +25,3 @@ export default class Cell extends React.Component {
   }
 }
 
-// export default Cell;
